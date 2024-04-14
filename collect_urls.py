@@ -20,7 +20,7 @@ def main():
         print(f"Processed {num}/{len(version_manifest['versions'])}")
 
     with open("data/all_urls.json", "w") as f:
-        json.dump(downloads_db, f)
+        json.dump(downloads_db, f, indent=4)
 
 
 if __name__ == "__main__":
