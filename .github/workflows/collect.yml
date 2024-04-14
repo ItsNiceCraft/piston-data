@@ -1,4 +1,4 @@
-name: Collect URLs
+name: Collect Piston URLs
 
 on:
     push:
@@ -11,7 +11,7 @@ permissions:
 
 jobs:
     collect:
-        runs-on: ubuntu-latest
+        runs-on: homeserver-1
         steps:
             - uses: actions/checkout@v4
             - uses: actions/setup-python@v5
