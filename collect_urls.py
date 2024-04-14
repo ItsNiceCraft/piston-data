@@ -11,13 +11,11 @@ def main():
         exit(1)
     version_manifest = r.json()
     print(f"Processing {len(version_manifest['versions'])} versions...")
-    for num, version in enumerate(version_manifest["versions"]):
+    for version in version_manifest["versions"]:
 
         r = requests.get(version["url"])
 
         downloads_db.append({version["id"]: r.json()["downloads"]})
-
-        print(f"Processed {num}/{len(version_manifest['versions'])}")
 
     with open("data/json/all_urls.json", "w") as f:
         json.dump(downloads_db, f, indent=4)
