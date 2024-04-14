@@ -2,10 +2,10 @@ name: Collect Piston URLs
 
 on:
     push:
-        branches: ["main"]
+      branches: ["main"]
     workflow_dispatch:
     schedule:
-        - cron: "45 * * * *"
+      - cron: "45 * * * *"
 
 permissions:
     contents: write
