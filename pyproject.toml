@@ -1,9 +1,7 @@
 [tool.poetry]
+package-mode = false
 name = "piston-data"
-version = "0.1.0"
-description = ""
 authors = ["ItsNiceCraft <74358857+ItsNiceCraft@users.noreply.github.com>"]
-readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
