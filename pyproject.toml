@@ -4,7 +4,7 @@ name = "piston-data"
 authors = ["ItsNiceCraft <74358857+ItsNiceCraft@users.noreply.github.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.12"
 requests = "^2.31.0"
 
 
