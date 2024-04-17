@@ -28,3 +28,4 @@ jobs:
                 commit_message: "chore: update data"
                 commit_user_name: itsnicecraft-actions
                 commit_user_email: 127137491+itsnicecraft-actions@users.noreply.github.com
+                commit_author: itsnicecraft-actions <127137491+itsnicecraft-actions@users.noreply.github.com>
