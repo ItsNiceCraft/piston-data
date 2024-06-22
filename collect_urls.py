@@ -3,7 +3,6 @@ import json
 
 
 def main():
-
     downloads_db = []
 
     r = requests.get("https://piston-meta.mojang.com/mc/game/version_manifest_v2.json")
@@ -11,11 +10,18 @@ def main():
         exit(1)
     version_manifest = r.json()
     print(f"Processing {len(version_manifest['versions'])} versions...")
-    for version in version_manifest["versions"]:
 
+    for version in version_manifest["versions"]:
         r = requests.get(version["url"])
 
-        downloads_db.append({version["id"]: r.json()["downloads"]})
+        downloads_db.append(
+            {
+                version["id"]: {
+                    "downloads": r.json()["downloads"],
+                    "java_version": r.json()["javaVersion"]["majorVersion"],
+                }
+            }
+        )
 
     with open("data/json/all_urls.json", "w") as f:
         json.dump(downloads_db, f, indent=4)
