@@ -14,11 +14,16 @@ def main():
     for version in version_manifest["versions"]:
         r = requests.get(version["url"])
 
+        try:
+            java_version = r.json()["javaVersion"]["majorVersion"]
+        except KeyError:
+            java_version = None
+
         downloads_db.append(
             {
                 version["id"]: {
                     "downloads": r.json()["downloads"],
-                    "java_version": r.json()["javaVersion"]["majorVersion"],
+                    "java_version": java_version,
                 }
             }
         )
