@@ -1,5 +1,32 @@
 [
     {
+        "25w41a": {
+            "downloads": {
+                "client": {
+                    "sha1": "506f7c3162e0e19f4fd915268374379f35ea2591",
+                    "size": 30837432,
+                    "url": "https://piston-data.mojang.com/v1/objects/506f7c3162e0e19f4fd915268374379f35ea2591/client.jar"
+                },
+                "client_mappings": {
+                    "sha1": "a0ec34f6e55e69d78fe8596c3f9e5c70fd84c0e9",
+                    "size": 11615502,
+                    "url": "https://piston-data.mojang.com/v1/objects/a0ec34f6e55e69d78fe8596c3f9e5c70fd84c0e9/client.txt"
+                },
+                "server": {
+                    "sha1": "804aefaf397b417479e89144834e277ebde2ce71",
+                    "size": 58780995,
+                    "url": "https://piston-data.mojang.com/v1/objects/804aefaf397b417479e89144834e277ebde2ce71/server.jar"
+                },
+                "server_mappings": {
+                    "sha1": "79cfcec60aed4cc7ec52679a36de5db740395cd9",
+                    "size": 8562261,
+                    "url": "https://piston-data.mojang.com/v1/objects/79cfcec60aed4cc7ec52679a36de5db740395cd9/server.txt"
+                }
+            },
+            "java_version": 21
+        }
+    },
+    {
         "1.21.10": {
             "downloads": {
                 "client": {
