@@ -1,5 +1,32 @@
 [
     {
+        "1.21.11-pre2": {
+            "downloads": {
+                "client": {
+                    "sha1": "d27328fcee29decc1870917b8f4e6377accb2fe8",
+                    "size": 31149257,
+                    "url": "https://piston-data.mojang.com/v1/objects/d27328fcee29decc1870917b8f4e6377accb2fe8/client.jar"
+                },
+                "client_mappings": {
+                    "sha1": "00c87b93bfa0cf3428fbe6289a171f219dd5877b",
+                    "size": 11776899,
+                    "url": "https://piston-data.mojang.com/v1/objects/00c87b93bfa0cf3428fbe6289a171f219dd5877b/client.txt"
+                },
+                "server": {
+                    "sha1": "7f997b55094aa7754f25173aafef657449f02bec",
+                    "size": 56329659,
+                    "url": "https://piston-data.mojang.com/v1/objects/7f997b55094aa7754f25173aafef657449f02bec/server.jar"
+                },
+                "server_mappings": {
+                    "sha1": "96bf7fccb05bb77f0daedd29ab9e49127a0d2dbc",
+                    "size": 8677039,
+                    "url": "https://piston-data.mojang.com/v1/objects/96bf7fccb05bb77f0daedd29ab9e49127a0d2dbc/server.txt"
+                }
+            },
+            "java_version": 21
+        }
+    },
+    {
         "1.21.11-pre1": {
             "downloads": {
                 "client": {
@@ -17844,28 +17871,6 @@
         }
     },
     {
-        "1.4.5": {
-            "downloads": {
-                "client": {
-                    "sha1": "7a8a963ababfec49406e1541d3a87198e50604e5",
-                    "size": 4967927,
-                    "url": "https://launcher.mojang.com/v1/objects/7a8a963ababfec49406e1541d3a87198e50604e5/client.jar"
-                },
-                "server": {
-                    "sha1": "c12fd88a8233d2c517dbc8196ba2ae855f4d36ea",
-                    "size": 2047972,
-                    "url": "https://launcher.mojang.com/v1/objects/c12fd88a8233d2c517dbc8196ba2ae855f4d36ea/server.jar"
-                },
-                "windows_server": {
-                    "sha1": "a60dc51007cfe8b2e61cfbbc48f3846f4c471f98",
-                    "size": 2229220,
-                    "url": "https://launcher.mojang.com/v1/objects/a60dc51007cfe8b2e61cfbbc48f3846f4c471f98/windows_server.exe"
-                }
-            },
-            "java_version": 8
-        }
-    },
-    {
         "1.4.6": {
             "downloads": {
                 "client": {
@@ -17882,6 +17887,28 @@
                     "sha1": "739da655218583520e129c5af0580b8d5dfb1b31",
                     "size": 2242895,
                     "url": "https://launcher.mojang.com/v1/objects/739da655218583520e129c5af0580b8d5dfb1b31/windows_server.exe"
+                }
+            },
+            "java_version": 8
+        }
+    },
+    {
+        "1.4.5": {
+            "downloads": {
+                "client": {
+                    "sha1": "7a8a963ababfec49406e1541d3a87198e50604e5",
+                    "size": 4967927,
+                    "url": "https://launcher.mojang.com/v1/objects/7a8a963ababfec49406e1541d3a87198e50604e5/client.jar"
+                },
+                "server": {
+                    "sha1": "c12fd88a8233d2c517dbc8196ba2ae855f4d36ea",
+                    "size": 2047972,
+                    "url": "https://launcher.mojang.com/v1/objects/c12fd88a8233d2c517dbc8196ba2ae855f4d36ea/server.jar"
+                },
+                "windows_server": {
+                    "sha1": "a60dc51007cfe8b2e61cfbbc48f3846f4c471f98",
+                    "size": 2229220,
+                    "url": "https://launcher.mojang.com/v1/objects/a60dc51007cfe8b2e61cfbbc48f3846f4c471f98/windows_server.exe"
                 }
             },
             "java_version": 8
