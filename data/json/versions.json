@@ -1,5 +1,32 @@
 [
     {
+        "1.21.11-pre5": {
+            "downloads": {
+                "client": {
+                    "sha1": "0744654aaa3a0851d64d0030591dee239b28fce0",
+                    "size": 31152421,
+                    "url": "https://piston-data.mojang.com/v1/objects/0744654aaa3a0851d64d0030591dee239b28fce0/client.jar"
+                },
+                "client_mappings": {
+                    "sha1": "bf22f899a55456f00963f624ecd605d18f3441a0",
+                    "size": 11779170,
+                    "url": "https://piston-data.mojang.com/v1/objects/bf22f899a55456f00963f624ecd605d18f3441a0/client.txt"
+                },
+                "server": {
+                    "sha1": "d62fa16c3bbb5c6809cbd45cd60f3396a9d543a3",
+                    "size": 56327949,
+                    "url": "https://piston-data.mojang.com/v1/objects/d62fa16c3bbb5c6809cbd45cd60f3396a9d543a3/server.jar"
+                },
+                "server_mappings": {
+                    "sha1": "6750efdbe3ba904eb6eaaeef58f4b632df1c34ea",
+                    "size": 8678489,
+                    "url": "https://piston-data.mojang.com/v1/objects/6750efdbe3ba904eb6eaaeef58f4b632df1c34ea/server.txt"
+                }
+            },
+            "java_version": 21
+        }
+    },
+    {
         "1.21.11-pre4": {
             "downloads": {
                 "client": {
