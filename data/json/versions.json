@@ -1,5 +1,22 @@
 [
     {
+        "26.3-snapshot-8": {
+            "downloads": {
+                "client": {
+                    "sha1": "dd75cb26bf71099ae196080606dbaaf6eb77d59a",
+                    "size": 41115757,
+                    "url": "https://piston-data.mojang.com/v1/objects/dd75cb26bf71099ae196080606dbaaf6eb77d59a/client.jar"
+                },
+                "server": {
+                    "sha1": "f56c190d1deda0a8e63592ae07b1cd7f26cccd3e",
+                    "size": 62028254,
+                    "url": "https://piston-data.mojang.com/v1/objects/f56c190d1deda0a8e63592ae07b1cd7f26cccd3e/server.jar"
+                }
+            },
+            "java_version": 25
+        }
+    },
+    {
         "26.3-snapshot-7": {
             "downloads": {
                 "client": {
